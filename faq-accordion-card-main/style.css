@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(238, 29%, 16%);
+}
+
+.card {
+    height: 510px;
+    background-color: white;
+    margin: 130px auto;
+    max-width: 920px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mobile-top {
+    display: none;
+}
+
+.left-side {
+    width: 42%;
+}
+
+#bg-pattern {
+    position: absolute;
+    z-index: 0;
+}
+#woman {
+    position: absolute;
+    z-index: 1;
+    margin-top: 70px;
+    overflow: hidden;
+}
+#box {
+    position: absolute;
+    z-index: 2;
+    margin-top: 207px;
+    margin-left: -93px;
+}
+#bg-pattern-mobile {
+    position: absolute;
+    z-index: 0;
+    margin-left: 100px;
+}
+#woman-mobile {
+    position: absolute;
+    z-index: 1;
+    margin-top: -110px;
+}
+
+.right-side {
+    width: 39%;
+    margin: 40px 90px 0 0;
+    z-index: 1;
+    overflow: auto;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+}
+
+.question :hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding-bottom: 15px;
+    font-size: 12px;
+    color: hsl(240, 6%, 50%);
+    width: 94%;
+    text-align: justify;
+}
+
+.qa-container:after {
+    content: ""; 
+    display: block; 
+    border-top: 1px solid hsl(240, 5%, 91%);
+}
+
+.active {
+    font-weight: 700;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 1030px) {
+    .right-side {
+        margin-right: 20px;
+        width: 45%;
+    }
+    .card {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .left-side {
+        display: none;
+    }
+    .right-side {
+        margin: 20px 25px;
+        width: inherit;
+    }
+    .card {
+        margin: 150px 15px;
+        flex-direction: column;
+        height: 530px;
+        justify-content: flex-start;
+    }
+    h1 {
+        text-align: center;
+    }
+    .mobile-top {
+        display: flex;
+        justify-content: center;
+    }
+}
