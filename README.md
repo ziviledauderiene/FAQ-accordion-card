@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/ziviledauderiene/FAQ-accordion-card/blob/main/faq-accordion-card-main/images/screenshot.png)
 
 ## My process
 
