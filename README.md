@@ -7,6 +7,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned & useful resources](#what-i-learned)
@@ -28,6 +29,10 @@ Users should be able to:
 ### Screenshot
 
 ![](https://github.com/ziviledauderiene/FAQ-accordion-card/blob/main/faq-accordion-card-main/images/screenshot.png)
+
+### Link
+
+https://faq-accordion-card-ziviledauderiene.vercel.app/
 
 ## My process
 
